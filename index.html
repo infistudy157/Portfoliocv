@@ -1,0 +1,255 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshu Kakkar - Professional Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1f3c67, #3c6a91, #68a6cc);
+            color: #f1f1f1;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1d2b64, #f8cdda);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #f1f1f1;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff4081;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        section h2 {
+            border-bottom: 2px solid #ff4081;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        a {
+            color: #ff4081;
+        }
+
+        a:hover {
+            color: #ff1b6b;
+        }
+
+        .email-link {
+            color: white;
+        }
+
+        .linkedin-link {
+            color: red;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff4081;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff1b6b;
+        }
+
+        .resume-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .floating-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .number {
+            position: absolute;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgba(0, 255, 255, 0.4);
+            animation: floatNumbers 12s infinite ease-in-out;
+        }
+
+        @keyframes floatNumbers {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-background" id="floatingBackground"></div>
+    <header>
+        <h1>Anshu Kakkar</h1>
+        <p>Finance Professional | Accountant | Problem Solver</p>
+    </header>
+    <nav>
+        <a href="#About Me">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#Skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="About Me">
+        <h2>About Me</h2>
+        <p>A detail-oriented and results-driven Accounts Professional with expertise in financial management, reporting, and administrative operations. Proficient in MS Office, Tally Prime, and data analysis, with strong analytical, problem-solving, and communication skills. Holds an MBA in Finance & IT and a B.Com (Hons). Currently working at MJ Welding & Safety Corporation, driving efficiency and accuracy in financial processes.</p>
+    </section>
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <ul>
+            <li><strong>Accounts Professional</strong> - MJ Welding & Safety Corporation, Gurgaon (June 2022 – Present)</li>
+            <ul>
+                <li>Spearheaded the maintenance of comprehensive sales records, ensuring accuracy and timely updates.</li>
+                <li>Crafted detailed and precise sales quotations, aiding in effective client communication and deal closure.</li>
+                <li>Streamlined administrative operations, enhancing overall organizational efficiency.</li>
+                <li>Successfully managed and executed bank-related activities with high accuracy and professionalism.</li>
+            </ul>
+        </ul>
+    </section>
+    <section id="qualifications">
+        <h2>Academic Qualifications</h2>
+        <ul>
+            <li><strong>MBA in Finance & IT</strong> - Swami Vivekanand University</li>
+            <li><strong>B.Com (Hons)</strong> - Govt. P.G. College, Gurgaon (First Division)</li>
+            <li><strong>Class 12 (CBSE)</strong> - Scored 82%</li>
+            <li><strong>Class 10 (CBSE)</strong> - Achieved 8.6 CGPA</li>
+        </ul>
+    </section>
+    <section id="Skills">
+        <h2>Skills</h2>
+        <h3>Technical Proficiencies</h3>
+        <ul>
+            <li>MS Office Suite: Advanced expertise in Microsoft Word, Excel, and PowerPoint for document creation, data analysis, and presentations.</li>
+            <li>Tally Prime Certification: Proficient in utilizing Tally Prime for bookkeeping, financial statement preparation, and inventory management.</li>
+        </ul>
+        <h3>Financial Acumen</h3>
+        <ul>
+            <li>Skilled in analyzing complex financial data to derive actionable insights.</li>
+            <li>Proficient in generating comprehensive financial reports, including income statements, balance sheets, and cash flow statements.</li>
+        </ul>
+        <h3>Administrative & Operational Skills</h3>
+        <ul>
+            <li>Exceptional attention to detail in data entry and management.</li>
+            <li>Adept at time management and multitasking to meet tight deadlines.</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Strong analytical and problem-solving abilities.</li>
+            <li>Effective team player with excellent collaboration skills.</li>
+            <li>Adaptable to dynamic environments and quick to learn new technologies.</li>
+            <li>Excellent verbal and written communication skills.</li>
+        </ul>
+    </section>
+    <section id="interests">
+        <h2>Personal Interests</h2>
+        <ul>
+            <li>Exploring diverse genres of music.</li>
+            <li>Reading books to expand knowledge and perspective.</li>
+        </ul>
+    </section>
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>Hindi</li>
+            <li>English</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Address:</strong> H. No. 46/8, 4/8 Marla, Model Town, Gurgaon, Haryana</p>
+        <p><strong>Phone:</strong> +91-9667546345</p>
+        <p><strong>Email:</strong> <a href="mailto:anshukakkar1234@gmail.com" class="email-link">anshukakkar1234@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/anshu-kakkar-1aa770145?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin-link">Click Here</a></p>
+    </section>
+    <div class="resume-button">
+        <a href="https://drive.google.com/file/d/1HMjF1D0029G8OG0Pa_d-ppcgsW18ll7j/view?usp=drivesdk" class="button" target="_blank">Download Resume</a>
+    </div>
+    <footer>
+        <p>© 2025 Anshu Kakkar. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const floatingBackground = document.getElementById('floatingBackground');
+
+        function createFloatingNumber() {
+            const number = document.createElement('div');
+            number.classList.add('number');
+            number.textContent = Math.floor(Math.random() * 100);
+            number.style.left = Math.random() * 100 + 'vw';
+            number.style.animationDuration = Math.random() * 7 + 8 + 's';
+            floatingBackground.appendChild(number);
+
+            setTimeout(() => {
+                floatingBackground.removeChild(number);
+            }, 15000);
+        }
+
+        setInterval(createFloatingNumber, 1000);
+    </script>
+</body>
+</html>
